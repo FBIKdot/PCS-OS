@@ -1,0 +1,127 @@
+{
+  "version": "5",
+  "specifiers": {
+    "jsr:@modernschoolproject/hnxml@0.6.12": "0.6.12",
+    "jsr:@std/assert@^1.0.13": "1.0.13",
+    "jsr:@std/fs@^1.0.19": "1.0.19",
+    "jsr:@std/internal@^1.0.6": "1.0.9",
+    "jsr:@std/internal@^1.0.9": "1.0.9",
+    "jsr:@std/path@^1.1.1": "1.1.1",
+    "npm:jsx-xml@0.3": "0.3.0"
+  },
+  "jsr": {
+    "@modernschoolproject/hnxml@0.6.12": {
+      "integrity": "d680be455b446e10b392b7fee9d545ade25ccbdbbbc494735dd1be4927de20a2",
+      "dependencies": [
+        "npm:jsx-xml"
+      ]
+    },
+    "@std/assert@1.0.13": {
+      "integrity": "ae0d31e41919b12c656c742b22522c32fb26ed0cba32975cb0de2a273cb68b29",
+      "dependencies": [
+        "jsr:@std/internal@^1.0.6"
+      ]
+    },
+    "@std/fs@1.0.19": {
+      "integrity": "051968c2b1eae4d2ea9f79a08a3845740ef6af10356aff43d3e2ef11ed09fb06",
+      "dependencies": [
+        "jsr:@std/internal@^1.0.9",
+        "jsr:@std/path"
+      ]
+    },
+    "@std/internal@1.0.9": {
+      "integrity": "bdfb97f83e4db7a13e8faab26fb1958d1b80cc64366501af78a0aee151696eb8"
+    },
+    "@std/path@1.1.1": {
+      "integrity": "fe00026bd3a7e6a27f73709b83c607798be40e20c81dde655ce34052fd82ec76",
+      "dependencies": [
+        "jsr:@std/internal@^1.0.9"
+      ]
+    }
+  },
+  "npm": {
+    "@oozcitak/dom@1.15.10": {
+      "integrity": "sha512-0JT29/LaxVgRcGKvHmSrUTEvZ8BXvZhGl2LASRUgHqDTC1M5g1pLmVv56IYNyt3bG2CUjDkc67wnyZC14pbQrQ==",
+      "dependencies": [
+        "@oozcitak/infra",
+        "@oozcitak/url",
+        "@oozcitak/util"
+      ],
+      "tarball": "https://registry.npmmirror.com/@oozcitak/dom/-/dom-1.15.10.tgz"
+    },
+    "@oozcitak/infra@1.0.8": {
+      "integrity": "sha512-JRAUc9VR6IGHOL7OGF+yrvs0LO8SlqGnPAMqyzOuFZPSZSXI7Xf2O9+awQPSMXgIWGtgUf/dA6Hs6X6ySEaWTg==",
+      "dependencies": [
+        "@oozcitak/util"
+      ],
+      "tarball": "https://registry.npmmirror.com/@oozcitak/infra/-/infra-1.0.8.tgz"
+    },
+    "@oozcitak/url@1.0.4": {
+      "integrity": "sha512-kDcD8y+y3FCSOvnBI6HJgl00viO/nGbQoCINmQ0h98OhnGITrWR3bOGfwYCthgcrV8AnTJz8MzslTQbC3SOAmw==",
+      "dependencies": [
+        "@oozcitak/infra",
+        "@oozcitak/util"
+      ],
+      "tarball": "https://registry.npmmirror.com/@oozcitak/url/-/url-1.0.4.tgz"
+    },
+    "@oozcitak/util@8.3.8": {
+      "integrity": "sha512-T8TbSnGsxo6TDBJx/Sgv/BlVJL3tshxZP7Aq5R1mSnM5OcHY2dQaxLMu2+E8u3gN0MLOzdjurqN4ZRVuzQycOQ==",
+      "tarball": "https://registry.npmmirror.com/@oozcitak/util/-/util-8.3.8.tgz"
+    },
+    "argparse@1.0.10": {
+      "integrity": "sha512-o5Roy6tNG4SL/FOkCAN6RzjiakZS25RLYFrcMttJqbdd8BWrnA+fGz57iN5Pb06pvBGvl5gQ0B48dJlslXvoTg==",
+      "dependencies": [
+        "sprintf-js"
+      ],
+      "tarball": "https://registry.npmmirror.com/argparse/-/argparse-1.0.10.tgz"
+    },
+    "esprima@4.0.1": {
+      "integrity": "sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==",
+      "bin": true,
+      "tarball": "https://registry.npmmirror.com/esprima/-/esprima-4.0.1.tgz"
+    },
+    "js-yaml@3.14.1": {
+      "integrity": "sha512-okMH7OXXJ7YrN9Ok3/SXrnu4iX9yOk+25nqX4imS2npuvTYDmo/QEZoqwZkYaIDk3jVvBOTOIEgEhaLOynBS9g==",
+      "dependencies": [
+        "argparse",
+        "esprima"
+      ],
+      "bin": true,
+      "tarball": "https://registry.npmmirror.com/js-yaml/-/js-yaml-3.14.1.tgz"
+    },
+    "jsx-xml@0.3.0": {
+      "integrity": "sha512-KXzxJw7FVURJKZiMOCwxa9oGd9mztLeIeQmUmfvt8lu+t31eRBm26czfz2SPh+0IgklJgt3Cebk96XYJ4y+dMw==",
+      "dependencies": [
+        "react-is",
+        "xmlbuilder2"
+      ],
+      "tarball": "https://registry.npmmirror.com/jsx-xml/-/jsx-xml-0.3.0.tgz"
+    },
+    "react-is@18.3.1": {
+      "integrity": "sha512-/LLMVyas0ljjAtoYiPqYiL8VWXzUUdThrmU5+n20DZv+a+ClRoevUzw5JxU+Ieh5/c87ytoTBV9G1FiKfNJdmg==",
+      "tarball": "https://registry.npmmirror.com/react-is/-/react-is-18.3.1.tgz"
+    },
+    "sprintf-js@1.0.3": {
+      "integrity": "sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==",
+      "tarball": "https://registry.npmmirror.com/sprintf-js/-/sprintf-js-1.0.3.tgz"
+    },
+    "xmlbuilder2@3.1.1": {
+      "integrity": "sha512-WCSfbfZnQDdLQLiMdGUQpMxxckeQ4oZNMNhLVkcekTu7xhD4tuUDyAPoY8CwXvBYE6LwBHd6QW2WZXlOWr1vCw==",
+      "dependencies": [
+        "@oozcitak/dom",
+        "@oozcitak/infra",
+        "@oozcitak/util",
+        "js-yaml"
+      ],
+      "tarball": "https://registry.npmmirror.com/xmlbuilder2/-/xmlbuilder2-3.1.1.tgz"
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@modernschoolproject/hnxml@0.6.12",
+      "jsr:@std/assert@^1.0.13",
+      "jsr:@std/fs@^1.0.19",
+      "jsr:@std/path@^1.1.1"
+    ]
+  }
+}
