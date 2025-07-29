@@ -1,7 +1,7 @@
 {
   "version": "5",
   "specifiers": {
-    "jsr:@modernschoolproject/hnxml@0.6.12": "0.6.12",
+    "jsr:@modernschoolproject/hnxml@0.7.0": "0.7.0",
     "jsr:@std/assert@^1.0.13": "1.0.13",
     "jsr:@std/fs@^1.0.19": "1.0.19",
     "jsr:@std/internal@^1.0.6": "1.0.9",
@@ -10,8 +10,8 @@
     "npm:jsx-xml@0.3": "0.3.0"
   },
   "jsr": {
-    "@modernschoolproject/hnxml@0.6.12": {
-      "integrity": "d680be455b446e10b392b7fee9d545ade25ccbdbbbc494735dd1be4927de20a2",
+    "@modernschoolproject/hnxml@0.7.0": {
+      "integrity": "cc18c14c2ca5daeb341cd7b7a85e35fbc09eee4e1689fb4d1cc6ada43fdd116e",
       "dependencies": [
         "npm:jsx-xml"
       ]
@@ -118,7 +118,7 @@
   },
   "workspace": {
     "dependencies": [
-      "jsr:@modernschoolproject/hnxml@0.6.12",
+      "jsr:@modernschoolproject/hnxml@0.7.0",
       "jsr:@std/assert@^1.0.13",
       "jsr:@std/fs@^1.0.19",
       "jsr:@std/path@^1.1.1"
