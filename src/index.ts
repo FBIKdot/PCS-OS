@@ -1,20 +1,3 @@
-import { TriggerElements } from "hnxml/jsx/action";
-import { TaskElements } from "hnxml/jsx/task";
-import { ComputerElements } from "hnxml/jsx/computer";
-import { MissionElements } from "hnxml/jsx/mission";
-import { InfoElements } from "hnxml/jsx/info";
-
-declare global {
-  namespace JSX {
-    type IntrinsicElements =
-      & MissionElements
-      & InfoElements
-      & TriggerElements
-      & TaskElements
-      & ComputerElements;
-  }
-}
-
 import { Builder } from "./builder.ts";
 
 // ExtensionInfo
